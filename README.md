@@ -32,8 +32,21 @@ If you get an error then you will need to go to [Download Node](https://nodejs.o
 
 
 ## Installing Project
-1. Please make sure to fork this repository to your personal GitHub
-2. Clone the repository to your machine
+1. Please make sure to fork this repository to your personal GitHub. You will find the button to fork this repository near the top right part of the screen.
+
+![Locate Fork GitHub Repo](doc/images/ForkRepo.png)
+
+Press this button and on the next screen it will give you the option to fork the repository make sure to click the green button title "Create fork" to fork the repositoy to your own GitHub
+
+2. Clone the repository to your machine, to do this open a new terminal and run
+
+```sh
+https://github.com/<github_repo_owner>/<github_repo_name>.git
+```
+
+To get the GitHub URL to clone the repo click on the green button title "<> Code" this will open a dropdown and you can copy the URL to clone this git repository to your system.
+
+![Clone GitHub URL](doc/images/CloneGitHubURL.png)
 
 ## Getting Started
 1. You will have to install your node packages from `package.json` to `node_modules`
