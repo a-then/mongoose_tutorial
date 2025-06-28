@@ -1,0 +1,17 @@
+{
+  "name": "mongoose_tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "NPower - Path2Tech",
+  "license": "ISC",
+  "description": "Introduction to using Mongoose with Node.js",
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "mongoose": "^8.16.1"
+  }
+}
