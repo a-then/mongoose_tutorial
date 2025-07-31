@@ -70,8 +70,15 @@ DB_URL="Replace Database URL with the URL of your MongoDB Cluster"
 
 3. To run the code you have two options, to run it with Visual Studio Code's GUI or to open a terminal and run the following command
 
+This command will run the code in development mode with hot-reloading using `nodemon`
 ```sh
-npm run start 
+npm run dev 
+```
+OR
+
+This command runs the code using `node` but does not have hot-reloading capabilities
+```
+npm run start
 ```
 
 ## Final Notes
